@@ -1,5 +1,5 @@
 # UH Clínica
-Projeto da disciplina COM212 - Gerência de Projeto de Software
+Projeto da disciplina de Redes 2
 
 Executar o comando "npm install" na pasta raíz e na pasta back
 
