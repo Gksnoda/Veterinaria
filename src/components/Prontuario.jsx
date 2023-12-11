@@ -9,14 +9,14 @@ import axios from 'axios';
 const Prontuario = ({ isOpen, onClose, dadosProntuario, onAtualizar }) => {
   const [alergias, setAlergias] = useState('');
   const [medicamentos, setMedicamentos] = useState('');
-  const [tipoSanguineo, setTipoSanguineo] = useState('');
+  const [raca, setRaca] = useState('');
   const [modoAtualizacao, setModoAtualizacao] = useState(false);
 
   useEffect(() => {
     if (dadosProntuario) {
       setAlergias(dadosProntuario.alergias || '');
       setMedicamentos(dadosProntuario.medicamentos || '');
-      setTipoSanguineo(dadosProntuario.tipoSanguineo || '');
+      setRaca(dadosProntuario.raca || ''); // Substituído 'tipoSanguineo' por 'raca'
     }
   }, [dadosProntuario]);
 
@@ -38,7 +38,7 @@ const Prontuario = ({ isOpen, onClose, dadosProntuario, onAtualizar }) => {
     const dadosProntuario = {
       alergias,
       medicamentos,
-      tipoSanguineo,
+      raca, // Substituído 'tipoSanguineo' por 'raca'
     };
 
     try {
@@ -47,7 +47,7 @@ const Prontuario = ({ isOpen, onClose, dadosProntuario, onAtualizar }) => {
     } catch (error) {
       console.error('Erro ao salvar prontuário:', error);
     } finally {
-        setModoAtualizacao(false);
+      setModoAtualizacao(false);
     }
   };
 
@@ -89,10 +89,10 @@ const Prontuario = ({ isOpen, onClose, dadosProntuario, onAtualizar }) => {
           InputLabelProps={{ sx: { color: 'black' } }}
         />
         <TextField
-          label="Tipo Sanguíneo"
+          label="Raça" // Substituído 'Tipo Sanguíneo' por 'Raça'
           fullWidth
-          value={tipoSanguineo}
-          onChange={(e) => setTipoSanguineo(e.target.value)}
+          value={raca}
+          onChange={(e) => setRaca(e.target.value)}
           disabled={!modoAtualizacao}
           InputLabelProps={{ sx: { color: 'black' } }}
         />

@@ -11,32 +11,32 @@ const cards = [
   {
     title: "DR. GILBERTO AZEVEDO",
     imagePath: medicoImage,
-    description: "ENDÓCRINO"
+    description: "VETERINÁRIO"
   },
   {
     title: "DR. JOSÉ ALMEIDA",
     imagePath: medicoImage2,
-    description: "ENDÓCRINO"
+    description: "VETERINÁRIO"
   },
   {
     title: "DRA. ANNA RIBEIRO",
     imagePath: medicoImage3,
-    description: "ENDÓCRINO"
+    description: "VETERINÁRIO"
   },
   {
     title: "DR. GILBERTO AZEVEDO",
     imagePath: medicoImage,
-    description: "ENDÓCRINO"
+    description: "VETERINÁRIO"
   },
   {
-    title: "DR. JOSÉ ALMEIDA",
+    title: "JOSÉ ALMEIDA",
     imagePath: medicoImage2,
-    description: "ENDÓCRINO"
+    description: "VETERINÁRIO"
   },
   {
-    title: "DRA. ANNA RIBEIRO",
+    title: "ANNA RIBEIRO",
     imagePath: medicoImage3,
-    description: "ENDÓCRINO"
+    description: "VETERINÁRIO"
   },
   
   // Outros cards...

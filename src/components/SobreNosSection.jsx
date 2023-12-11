@@ -14,33 +14,27 @@ function SobreNosSection() {
       <h1 className="text-greeny text-7xl mb-12">Sobre Nós</h1>
       <p className="mb-8 first-letter:text-5xl first-letter:text-greeny w-[350px] lg:w-[1000px]">
         {" "}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vestibulum vel auctor nisi. Phasellus tempor maximus eleifend.
-        Aliquam erat volutpat. Donec ullamcorper tempus dolor et
-        tincidunt. Cras ac justo dignissim, rutrum sapien in,
-        efficitur nulla. Fusce leo risus, consequat et dictum ac,
-        faucibus non nisl. Nam erat lacus, viverra ut semper nec,
-        accumsan quis nisl. Phasellus sit amet bibendum enim. Aliquam
-        tristique enim elit, vel viverra lectus hendrerit eu. Quisque
-        ex mi, maximus sed nisl sit amet, luctus pellentesque tellus.
-        Sed vehicula velit id cursus viverra. Quisque sagittis eget
-        arcu id porttitor. Fusce sed nulla ligula. Nunc quis accumsan
-        ante.
+        A UH Clínica Veterinária é uma instituição comprometida com a excelência 
+        em cuidados veterinários e bem-estar animal. 
+        Nossa equipe é formada por profissionais altamente qualificados, 
+        dedicados a proporcionar atendimento compassivo e personalizado a todos 
+        os nossos pacientes de quatro patas. Com uma abordagem centrada no paciente, 
+        buscamos oferecer serviços veterinários de alta qualidade, utilizando 
+        as mais recentes inovações e práticas baseadas em evidências. 
+        Nosso objetivo é promover a saúde e o conforto dos animais, 
+        garantindo um ambiente acolhedor e seguro para todos que confiam 
+        em nossos cuidados veterinários.
       </p>
       <p className="min-[200px]:w-[350px] lg:w-[1000px]">
-        Vivamus lacinia aliquam tempor. Pellentesque viverra, sem quis
-        laoreet vehicula, nibh sem iaculis lectus, efficitur venenatis
-        felis sapien nec ante. Etiam sem nibh, consectetur sit amet
-        lacinia eget, malesuada bibendum elit. Donec dapibus suscipit
-        ipsum, scelerisque convallis elit hendrerit nec. Maecenas
-        dignissim, tellus a semper sodales, eros arcu facilisis leo,
-        eu venenatis ex metus quis turpis. Nam volutpat diam et nibh
-        suscipit placerat. Fusce rutrum quis dolor tincidunt posuere.
-        Praesent a vestibulum velit. Etiam sem ligula, laoreet sed
-        ullamcorper vel, eleifend accumsan erat. Integer tempus
-        consectetur pellentesque. Nunc efficitur felis vel pharetra
-        sollicitudin. Nam vehicula orci arcu, vitae porttitor augue
-        tempus sodales. Morbi bibendum nunc at euismod placerat.
+      Nossa equipe de profissionais apaixonados pela saúde animal está pronta para 
+      proporcionar atendimento compassivo e personalizado. Com especialistas em 
+      diversas áreas da medicina veterinária, garantimos excelência clínica em cada 
+      consulta e procedimento, sempre visando o conforto e a felicidade dos 
+      nossos pacientes peludos.
+      Venha fazer parte da nossa família! Estamos aqui para celebrar a alegria de ter animais 
+      de estimação e para garantir que cada momento ao lado deles seja repleto de saúde, amor e 
+      diversão. Seja bem-vindo à UH Clínica Veterinária, onde o cuidado vai além da medicina, 
+      é uma expressão sincera de amor pelos animais.
       </p>
       <button onClick={handleClick} className="bg-greeny w-[250px] h-[40px] rounded-full mt-4 hover:bg-black text-white text-2xl">
         Ver Mais

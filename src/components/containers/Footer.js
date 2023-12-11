@@ -24,7 +24,7 @@ function Footer(){
             </ul>
             </div>
             <p className='flex justify-center items-center bg-white lg:h-12 lg:mt-4 mt-4 min-[200px]:mt-[100px]'>
-                <span>Gustavo Noda - Tales Francisco</span> &copy; 2023
+                <span>Gustavo Noda - Larissa Faustino - Gabriel Belluco  .</span> &copy; 2023
             </p>
         </footer>
   )

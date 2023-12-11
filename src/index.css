@@ -35,7 +35,7 @@ body,
 }
 
 #tituloSobreNos{
-  color: rgba(255, 255, 255, 0.90);
+  color: rgba(255, 255, 255, 0.9);
   font-family: 'Dosis', sans-serif;
   display: flex;
   flex-direction: column;
@@ -44,10 +44,11 @@ body,
   text-align: center;
   height: 85vh;
   font-size: 4rem;
+
 }
 
 #tituloContato{
-  color: rgba(255, 255, 255, 0.90);
+  color: #ffffffe6;
   font-family: 'Dosis', sans-serif;
   display: flex;
   flex-direction: column;
