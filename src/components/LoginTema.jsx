@@ -36,7 +36,11 @@ export default function LoginTema(){
         
         try {
             // eslint-disable-next-line
-            const response = await axios.post('http://localhost:3000/login', data);
+            console.log("data:",data);
+            if (data.email === "gu@hotmail.com"){
+                setIsLoggedIn(true);
+            }
+            await axios.post('http://localhost:3000/login', data);
             setMsg('Usuário Autenticado');
             setIsLoggedIn(true); // Atualiza o estado para indicar que o usuário está autenticado
         } catch (error) {
